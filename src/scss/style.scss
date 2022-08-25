@@ -1,3 +1,11 @@
 // &display=swap&suset=cyrilic-ext
-@import "fonts";
 
+@import "null";
+@import "fonts";
+@import "header";
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
