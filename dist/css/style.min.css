@@ -195,9 +195,49 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 206px;
 }
 
+.about {
+  height: 1129px;
+  padding: 128px 0 271px;
+  background: url(../img/buildings-white.png) center bottom repeat-x, url(../img/buildings-black.png) center bottom repeat-x, #1d1d1d;
+}
+
+.about__inner {
+  display: grid;
+  grid-template-rows: max-content max-content;
+  grid-template-columns: max-content max-content;
+  grid-gap: 178px;
+}
+
+.about__item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  width: 417px;
+  height: 276px;
+  background-color: #181818;
+}
+
+.about__year {
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  margin-bottom: 27px;
+}
+
+.about__text {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #b7b7b7;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid red;
 }
