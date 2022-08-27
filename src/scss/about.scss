@@ -1,8 +1,8 @@
 .about {
   height: 1129px;
   padding: 128px 0 271px;
-  background: url(../img/buildings-white.png) center bottom repeat-x,
-              url(../img/buildings-black.png) center bottom repeat-x,
+  background: url(../img/buildings-white.png) center 101% repeat-x,
+              url(../img/buildings-black.png) center 101% repeat-x,
               #1d1d1d;
   // background-size: contain, contain; //чтобы изображения стали под размер экрана            
 }
@@ -36,4 +36,5 @@
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #b7b7b7;
+  text-align: center;
 }

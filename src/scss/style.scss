@@ -1,9 +1,11 @@
 // &display=swap&suset=cyrilic-ext
 
-@import "null";
+@import "../css/null";
 @import "fonts";
 @import "header";
 @import "about";
+@import "../css/fontello";
+@import "team";
 .container{
   width: 1200px;
   padding: 0 15px;
