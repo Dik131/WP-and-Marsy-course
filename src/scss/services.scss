@@ -1,0 +1,83 @@
+.services {
+  height: 835px;
+  background-color: #181818;
+}
+.services__head {
+  text-align: center;
+  padding-top: 176px;
+}
+.services__title {
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.services__text {
+  font-family: Merriweather, serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #777777;
+  margin: 0;
+}
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 127px;
+}
+.services__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__item:first-child{
+  padding-right: 81px;
+}
+.services__item:last-child{
+  padding-left: 82px;
+}
+.services__item-img {
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  width: 172px;
+  height: 172px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 43px;
+}
+.services__item-img .graph{
+  width: 64px;
+  height: 54px;
+}
+.services__item-img .heart{
+  width: 73px;
+  height: 63px;
+}
+.services__item-img .cloud{
+  width: 64px;
+  height: 55px;
+}
+.services__item-title {
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+.services__item-text {
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #383838;
+  text-align: center;
+}
