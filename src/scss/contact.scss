@@ -1,0 +1,105 @@
+.contact {
+  height: 1087px;
+}
+.contact .block__head .block__title{
+  padding-top: 95px;
+}
+.contact__inner {
+}
+.contact__icon-box {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 570px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.contact__item {
+  text-align: center;
+  width: 130px;
+  height: 60px;
+}
+.contact__item i{
+  color: #323232;
+  font-size: 21px;
+}
+.contact__text{
+  margin-bottom: 12px;
+}
+.contact__text a{
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  transition: 0.3s;
+}
+.contact__text a:hover{
+  color: #323232;
+  text-decoration: underline;
+}
+.contact__form {
+  padding-top: 153px;
+  display: flex;
+  flex-direction: column;
+  max-width: 770px;
+  margin: 0 auto;
+  .contact__name, .contact__email, .contact__number, .contact__text{
+    border: 1px solid #999999;
+  }
+}
+.contact__form input{
+  height: 52px;
+}
+.contact__name {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+}
+.contact__email {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+}
+.contact__number {
+  padding: 20px;
+  margin-bottom: 18px;
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+  text-align: center;
+}
+.contact__text{
+  padding: 22px;
+  margin-bottom: 21px;
+  font-family: HelveticaNeueLTProLt, sans-serif;
+  resize: none;
+  height: 195px;
+  line-height: 26px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #898888;
+}
+.contact__button {
+  padding: 0;
+  font-family: HelveticaNeueLTProMd, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  background-color: #161616;;
+  cursor: pointer;
+}
