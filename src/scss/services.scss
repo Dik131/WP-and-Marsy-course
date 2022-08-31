@@ -2,28 +2,13 @@
   height: 835px;
   background-color: #181818;
 }
-.services__head {
-  text-align: center;
-  padding-top: 176px;
-}
-.services__title {
-  font-family: HelveticaNeueLTProLt, sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
+.inverse .block__title{
   color: #ffffff;
-  margin-bottom: 5px;
 }
-.services__text {
-  font-family: Merriweather, serif;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 0.02em;
+.inverse .block__text{
   color: #777777;
-  margin: 0;
 }
+
 .services__inner {
   display: flex;
   justify-content: space-between;
@@ -34,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 340px;
 }
 .services__item:first-child{
   padding-right: 81px;
